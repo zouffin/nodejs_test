@@ -1,0 +1,37 @@
+{
+  "name": "music-quizz",
+  "version": "1.0.0",
+  "description": "Music Quizz with Dailymotion Player",
+  "main": "music-quizz.js",
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongodb": "^2.2.31",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "config": {
+    "mghost": "127.0.0.1",
+    "mgport": "27017",
+    "mgprefix": "mq",
+    "mgdbname": "music-quizzDB"
+  },
+  "scripts": {
+    "start": "node music-quizz.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouffin/nodejs_test.git"
+  },
+  "keywords": [
+    "music",
+    "quizz",
+    "video"
+  ],
+  "author": "Dailymotion <stephane.boniffacy@watchever.com> (http://dailymotion.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zouffin/nodejs_test/issues"
+  },
+  "homepage": "https://github.com/zouffin/nodejs_test#readme"
+}
